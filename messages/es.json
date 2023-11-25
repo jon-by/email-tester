@@ -1,4 +1,4 @@
 {
-  "admin/test": "teste",
-  "store/test": "teste"
+  "admin-example.navigation.label": "Probador de correo electrónico",
+  "admin-example.navigation.search.kws": "Probador, email, E-mail, correo electrónico, Probador de correo electrónico"
 }
