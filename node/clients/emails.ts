@@ -1,8 +1,6 @@
 import { JanusClient, InstanceOptions, IOContext } from '@vtex/api'
 import { pipe } from 'ramda'
 
-
-
 const withCookieAsHeader = (context: IOContext) => (
 
   options: InstanceOptions
@@ -14,16 +12,13 @@ const withCookieAsHeader = (context: IOContext) => (
   },
 })
 
-export default class ViaCep extends JanusClient {
+export default class Emails extends JanusClient {
   constructor(context: IOContext, options?: InstanceOptions) {
     super(context, options && pipe(withCookieAsHeader(context))(options))
   }
 
 
   public async getTemplates(): Promise<any> {
-
-    console.log({ token: this.context.authToken })
-
     return this.http.get(`/api/template-render/pvt/templates/getlist`)
   }
 }
