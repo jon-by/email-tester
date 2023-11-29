@@ -1,6 +1,6 @@
 {
-    "admin.app.example": {
-        "component": "EmailTester",
-        "path": "/admin/app/iotraining"
-    }
+  "admin.app.example": {
+    "component": "EmailTester",
+    "path": "/admin/app/email-tester"
+  }
 }

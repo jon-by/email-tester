@@ -1793,9 +1793,9 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-"acctglobal.email-tester@https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1700923553/public/@types/acctglobal.email-tester":
+"acctglobal.email-tester@https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701037728/public/@types/acctglobal.email-tester":
   version "0.0.0"
-  resolved "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1700923553/public/@types/acctglobal.email-tester#d2d4cb8247a80e14bd996a8f10a9ec66cd5c4912"
+  resolved "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701037728/public/@types/acctglobal.email-tester#3b826dcb5a97bb922c75c22b8fb1474b90085b75"
 
 acorn-globals@^4.3.2:
   version "4.3.4"

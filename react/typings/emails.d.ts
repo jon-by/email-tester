@@ -1,4 +1,4 @@
 export type emailTemplateType = {
-    "Name": string,
-    "FriendlyName": string,
+  templateId: string
+  templatename: string
 }
