@@ -18,7 +18,7 @@
     "@types/react": "^16.9.31",
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
-    "acctglobal.email-tester": "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701037728/public/@types/acctglobal.email-tester",
+    "acctglobal.email-tester": "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701604271/public/@types/acctglobal.email-tester",
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",

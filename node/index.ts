@@ -4,7 +4,6 @@ import { LRUCache, method, Service } from '@vtex/api'
 import { Clients } from './clients'
 import { emailsMiddleware } from './middlewares/emailsMiddleware'
 
-
 const TIMEOUT_MS = 800
 
 // Create a LRU memory cache for the Status client.
@@ -49,5 +48,5 @@ export default new Service({
     emails: method({
       GET: [emailsMiddleware],
     }),
-  }
+  },
 })

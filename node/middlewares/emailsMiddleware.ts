@@ -1,5 +1,3 @@
-
-
 export async function emailsMiddleware(
   ctx: Context,
   next: () => Promise<unknown>

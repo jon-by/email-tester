@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@vtex/clients": "^2.21.0",
     "co-body": "^6.0.0",
     "ramda": "^0.25.0"
   },
@@ -11,7 +12,7 @@
     "@vtex/api": "6.46.0",
     "@vtex/test-tools": "^1.0.0",
     "@vtex/tsconfig": "^0.5.6",
-    "acctglobal.email-tester": "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701037728/public/@types/acctglobal.email-tester",
+    "acctglobal.email-tester": "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701604271/public/@types/acctglobal.email-tester",
     "graphql": "^0.13.2",
     "graphql-tools": "^3.1.1",
     "request": "^2.85.0",
