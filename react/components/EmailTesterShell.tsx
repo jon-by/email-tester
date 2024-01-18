@@ -19,7 +19,11 @@ const EmailTesterShell = () => {
         linkLabel={selectedTemplate && 'Templates'}
         onLinkClick={() => setSelectedTemplate('')}
       ></PageHeader>
-      {selectedTemplate ? <SendEmail /> : <TemplateSelector />}
+      {selectedTemplate ? (
+        <SendEmail selectedTemplate={selectedTemplate} />
+      ) : (
+        <TemplateSelector />
+      )}
     </Layout>
   )
 }

@@ -7,15 +7,21 @@
   "dependencies": {
     "@vtex/styleguide": "^9.146.9",
     "apollo-client": "^2.6.8",
+    "highlight.js": "^11.9.0",
+    "prismjs": "^1.29.0",
     "react": "^16.12.0",
     "react-apollo": "^3.1.3",
     "react-dom": "^16.12.0",
-    "react-intl": "^3.12.0"
+    "react-intl": "^3.12.0",
+    "react-simple-code-editor": "^0.13.1",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
     "@apollo/react-testing": "^3.1.3",
     "@types/node": "^13.9.8",
+    "@types/prismjs": "^1.26.3",
     "@types/react": "^16.9.31",
+    "@types/react-syntax-highlighter": "^15.5.11",
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "acctglobal.email-tester": "https://emailtester--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.email-tester@0.0.1+build1701604271/public/@types/acctglobal.email-tester",

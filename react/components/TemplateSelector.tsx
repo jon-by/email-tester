@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 
 import emails from '../api/emailTester'
+
 import { useTesterEmail } from '../context/EmailTesterContext'
 import { Input, IconSearch, SelectableCard, Spinner } from 'vtex.styleguide'
 

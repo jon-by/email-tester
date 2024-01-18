@@ -2,7 +2,9 @@ import type { ClientsConfig, ServiceContext, RecorderState } from '@vtex/api'
 import { LRUCache, method, Service } from '@vtex/api'
 
 import { Clients } from './clients'
-import { emailsMiddleware } from './middlewares/emailsMiddleware'
+import { parsePayload } from './middlewares/parsePayload'
+import { getTemplateList } from './handlers/emails/getTemplateList'
+import { sendEmail } from './handlers/emails/sendEmail'
 
 const TIMEOUT_MS = 800
 
@@ -46,7 +48,8 @@ export default new Service({
     // `status` is the route ID from service.json. It maps to an array of middlewares (or a single handler).
 
     emails: method({
-      GET: [emailsMiddleware],
+      GET: [parsePayload, getTemplateList],
+      POST: [parsePayload, sendEmail],
     }),
   },
 })

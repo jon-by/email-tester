@@ -1,8 +1,7 @@
+import { EMAILS_ENDPOINT } from '../constants/constants'
 async function fetchTemplateList() {
-  const url = '/_v/emails/list-templates'
-
   try {
-    const rawResponse = await fetch(url)
+    const rawResponse = await fetch(EMAILS_ENDPOINT)
 
     const response = await rawResponse.json()
 
@@ -18,6 +17,24 @@ async function fetchTemplateList() {
   }
 }
 
+async function sendEmail(template: string, json: any): Promise<boolean> {
+  console.log({ template, json })
+  try {
+    const rawResponse = await fetch(EMAILS_ENDPOINT, {
+      method: 'POST',
+      body: JSON.stringify({ name: template, data: json }),
+    })
+
+    const response = await rawResponse.json()
+
+    return response.status
+  } catch (error) {
+    console.log(error)
+    return false
+  }
+}
+
 export default {
   fetchTemplateList,
+  sendEmail,
 }
